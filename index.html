@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8faff">
+  <meta name="description" content="InformàTICa: jocs i activitats digitals per a l'alumnat de Primària de Nostra Senyora de la Consolació, Tortosa.">
+  <title>InformàTICa · Aprèn jugant!</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="data/recursos.js?v=edu365-20261009"></script>
+  <script defer src="js/app.js?v=edu365-20261009"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contingut">Ves al contingut</a>
+  <header class="site-header">
+    <div class="header-wrap">
+      <a href="#inici" class="brand" id="marca" aria-label="InformàTICa, torna a l'inici">
+        <span class="brand-icon" aria-hidden="true"><span class="brand-stars">✦</span>iT<span class="brand-dot">●</span></span>
+        <span class="brand-text">Informà<span>TIC</span>a<small>Aprenem jugant!</small></span>
+      </a>
+      <div class="header-search">
+        <label for="cerca" class="sr-only">Cerca una activitat per nom o matèria</label>
+        <span class="search-ico" aria-hidden="true">⌕</span>
+        <input id="cerca" type="search" autocomplete="off" placeholder="Busca un joc, Scratch, pintar, sumes…" spellcheck="false">
+        <kbd aria-hidden="true" class="shortcut">⌘ K</kbd>
+        <button id="neteja-cerca" class="clear-search" type="button" aria-label="Esborra el text de la cerca" hidden>×</button>
+      </div>
+      <button class="top-action" type="button" id="torna-inici"><span aria-hidden="true">⌂</span><span>Inici</span></button>
+    </div>
+  </header>
+
+  <main id="contingut">
+    <div class="page-wrap" id="inici">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="tiny-sparkle" aria-hidden="true">✦</span> Recursos digitals oberts per a totes les escoles</span>
+          <h1 id="hero-title">Un món per <span>aprendre</span><br>i <em>descobrir!</em></h1>
+          <p>Tria el teu cicle, explora activitats i prepara't per aprendre jugant. Tu decideixes per on començar!</p>
+          <a href="#tria-cicle" class="hero-cta">Tria el teu cicle <span aria-hidden="true">↘</span></a>
+          <div class="hero-note"><span aria-hidden="true">✳</span> Informàtica, robòtica i reptes digitals per a Primària</div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <span class="float-emoji f-e-1">✏️</span><span class="float-emoji f-e-2">⭐</span><span class="float-emoji f-e-3">🧩</span>
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="mascot">
+            <span class="mascot-antenna"><i></i></span>
+            <div class="mascot-head"><div class="mascot-face"><span class="eye eye-left"></span><span class="eye eye-right"></span><span class="smile"></span></div></div>
+            <div class="mascot-neck"></div>
+            <div class="mascot-body"><span class="mascot-heart">♥</span></div>
+            <div class="mascot-hand mascot-hand-left"></div><div class="mascot-hand mascot-hand-right"></div>
+          </div>
+          <div class="orb-tag orb-tag-top">💡 Idees brillants</div>
+          <div class="orb-tag orb-tag-bottom">🎮 Aprendre és jugar</div>
+        </div>
+      </section>
+
+      <section id="tria-cicle" class="cycles" aria-labelledby="cycles-title">
+        <div class="section-title-row">
+          <div><span class="section-kicker">UN ESPAI PER A CADA CICLE</span><h2 id="cycles-title">Quin curs fas? <span class="heading-star" aria-hidden="true">✳</span></h2><p>Escull el teu cicle per veure les activitats pensades per a tu.</p></div>
+          <span class="section-decor" aria-hidden="true">01 / 02</span>
+        </div>
+        <div class="cycle-grid" role="group" aria-label="Selecciona el teu cicle">
+          <button class="cycle-card cycle-inicial" type="button" data-cycle="inicial" aria-pressed="false">
+            <span class="cycle-top"><span class="cycle-label">CICLE INICIAL</span><span class="cycle-arrow" aria-hidden="true">↗</span></span>
+            <span class="cycle-mascot" aria-hidden="true">🌈</span>
+            <span class="cycle-name">1r i 2n</span>
+            <span class="cycle-description">Descobreix, pinta i juga amb els nombres.</span>
+            <span class="cycle-bottom"><span class="cycle-count" data-count="inicial"></span><span class="cycle-go">Entrar <span aria-hidden="true">→</span></span></span>
+          </button>
+          <button class="cycle-card cycle-mitja" type="button" data-cycle="mitja" aria-pressed="false">
+            <span class="cycle-top"><span class="cycle-label">CICLE MITJÀ</span><span class="cycle-arrow" aria-hidden="true">↗</span></span>
+            <span class="cycle-mascot" aria-hidden="true">🚀</span>
+            <span class="cycle-name">3r i 4t</span>
+            <span class="cycle-description">Crea, resol reptes i comença a programar.</span>
+            <span class="cycle-bottom"><span class="cycle-count" data-count="mitja"></span><span class="cycle-go">Entrar <span aria-hidden="true">→</span></span></span>
+          </button>
+          <button class="cycle-card cycle-superior" type="button" data-cycle="superior" aria-pressed="false">
+            <span class="cycle-top"><span class="cycle-label">CICLE SUPERIOR</span><span class="cycle-arrow" aria-hidden="true">↗</span></span>
+            <span class="cycle-mascot" aria-hidden="true">🧠</span>
+            <span class="cycle-name">5è i 6è</span>
+            <span class="cycle-description">Programa, investiga i domina el teclat.</span>
+            <span class="cycle-bottom"><span class="cycle-count" data-count="superior"></span><span class="cycle-go">Entrar <span aria-hidden="true">→</span></span></span>
+          </button>
+        </div>
+      </section>
+
+      <section id="explora" class="explore" aria-labelledby="explore-title" hidden>
+        <div class="explore-heading">
+          <div><span class="section-kicker" id="explore-kicker">ACTIVITATS PER A TU</span><h2 id="explore-title">La teva aventura comença aquí! <span aria-hidden="true">✨</span></h2><p id="explore-subtitle">Tria què vols practicar i obre una activitat.</p></div>
+          <button type="button" class="change-cycle" id="canvia-cicle">↻ Canvia de cicle</button>
+        </div>
+        <div class="filter-panel">
+          <div class="filter-title-line"><h3>Què et ve de gust fer?</h3><button type="button" class="reset-button" id="neteja-filtres">Neteja filtres <span aria-hidden="true">↺</span></button></div>
+          <div id="categories" class="category-chips" role="group" aria-label="Filtra per matèria"></div>
+          <div class="filter-bottom">
+            <div class="device-filter" role="group" aria-label="Filtra per dispositiu">
+              <button type="button" data-device="tots" class="device-btn active" aria-pressed="true">Tots els dispositius</button>
+              <button type="button" data-device="tablet" class="device-btn" aria-pressed="false">📱 Tauleta</button>
+              <button type="button" data-device="pc" class="device-btn" aria-pressed="false">💻 Ordinador</button>
+            </div>
+            <p id="result-count" class="result-count" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+        <div id="resource-grid" class="resource-grid"></div>
+        <div id="no-results" class="no-results" hidden><span aria-hidden="true">🔎</span><h3>Ups! No hem trobat cap joc</h3><p>Prova amb una altra paraula o treu algun filtre.</p><button id="empty-reset" type="button">Veure totes les activitats</button></div>
+      </section>
+      <section id="howto" class="guide" aria-labelledby="guide-title">
+        <div class="guide-heading"><span class="section-kicker">UN PETIT CONSELL</span><h2 id="guide-title">Què necessito per jugar?</h2></div>
+        <div class="guide-items">
+          <div class="guide-item"><span class="guide-emoji" aria-hidden="true">📱</span><div><h3>Tauleta</h3><p>Activitats per tocar la pantalla amb el dit.</p></div></div>
+          <div class="guide-item"><span class="guide-emoji" aria-hidden="true">💻</span><div><h3>Ordinador</h3><p>Activitats pensades per al ratolí o el PC.</p></div></div>
+          <div class="guide-item"><span class="guide-emoji" aria-hidden="true">⌨️</span><div><h3>Teclat</h3><p>Necessites un teclat físic per escriure.</p></div></div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="footer-content"><div><span class="footer-mark">✦</span> <strong>InformàTICa</strong> <span>· Recursos digitals per a totes les escoles</span></div><p>Aprenem, creem i descobrim plegats. <span aria-hidden="true">💙</span></p><small>Centre pilot: Nostra Senyora de la Consolació (Tortosa). Les activitats s'obren en webs externes. Si una no funciona, avisa el teu mestre o mestra.</small></div></footer>
+</body>
+</html>
