@@ -1,4 +1,5 @@
 /* Generat per scripts/actualitza_edu365.py */
+
 window.INFORMATICA_RECURSOS = [
   {
     "id": "rec-016",
@@ -3762,5 +3763,87 @@ window.INFORMATICA_RECURSOS = [
     "ordre": 173,
     "origen_cataleg": "https://www.edu365.cat/recursos.html",
     "nota_docent": "No utilitzar imatges personals d’alumnes."
+  },
+  {
+    "id": "manual-type-toss",
+    "nom": "Type Toss",
+    "descripcio": "Practica la mecanografia amb un divertit repte arcade.",
+    "url": "https://www.typingproo.com/es/games/type-toss/",
+    "cicles": [
+      "mitja",
+      "superior"
+    ],
+    "categories": [
+      "mecanografia"
+    ],
+    "dispositiu": "pc",
+    "teclat": true,
+    "icona": "🎯",
+    "estil": "peach",
+    "proveidor": "TypingProo",
+    "estat_auditoria": "pendent_prova",
+    "avis_compte": false,
+    "ordre": 174
+  },
+  {
+    "id": "manual-keyboard-jump",
+    "nom": "Keyboard Jump",
+    "descripcio": "Salta plataformes escrivint les tecles correctes.",
+    "url": "https://www.typingproo.com/es/games/keyboard-jump/",
+    "cicles": [
+      "mitja",
+      "superior"
+    ],
+    "categories": [
+      "mecanografia"
+    ],
+    "dispositiu": "pc",
+    "teclat": true,
+    "icona": "🦘",
+    "estil": "sky",
+    "proveidor": "TypingProo",
+    "estat_auditoria": "pendent_prova",
+    "avis_compte": false,
+    "ordre": 175
+  },
+  {
+    "id": "manual-pirate-treasure",
+    "nom": "Tresor pirata",
+    "descripcio": "Viu una aventura pirata practicant mecanografia.",
+    "url": "https://typinggameskids.com/es/juegos/pirate-treasure/",
+    "cicles": [
+      "mitja"
+    ],
+    "categories": [
+      "mecanografia"
+    ],
+    "dispositiu": "pc",
+    "teclat": true,
+    "icona": "🏴‍☠️",
+    "estil": "lilac",
+    "proveidor": "TypingGamesKids",
+    "estat_auditoria": "pendent_prova",
+    "avis_compte": false,
+    "ordre": 176
+  },
+  {
+    "id": "manual-dino-dash",
+    "nom": "Dino Dash",
+    "descripcio": "Ajuda el dinosaure a escapar escrivint paraules.",
+    "url": "https://typinggameskids.com/es/juegos/dino-dash/",
+    "cicles": [
+      "mitja"
+    ],
+    "categories": [
+      "mecanografia"
+    ],
+    "dispositiu": "pc",
+    "teclat": true,
+    "icona": "🦖",
+    "estil": "mint",
+    "proveidor": "TypingGamesKids",
+    "estat_auditoria": "pendent_prova",
+    "avis_compte": false,
+    "ordre": 177
   }
 ];
